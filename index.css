@@ -1,0 +1,99 @@
+header {
+  background-color: #161b22;
+  color: #f0f6fc;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin: -10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+body {
+  background-color: #0d1117;
+  color: #c9d1d9;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+h2 {
+  color: #8b949e;
+  font-weight: 600;
+  vertical-align: middle;
+  font-size: 22px;
+}
+
+h3 {
+  color: #c9d1d9;
+  font-weight: 500;
+  vertical-align: middle;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+p {
+  word-wrap: break-word;
+  font-size: 14px;
+}
+
+p:hover {
+  color: #5ba3ff;
+  cursor: pointer;
+}
+
+#flex-container {
+  display: flex !important;
+  flex-direction: row !important;
+  margin-top: 40px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 10px;
+}
+
+#flag-container {
+  width: 70%;
+}
+
+.flag-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flag-row:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.flag-box {
+  width: 100%;
+}
+
+.flag-box:not(:last-child) {
+  margin-right: 20px;
+}
+
+.flag-box > img {
+  margin-bottom: 0px;
+}
+
+.flag-title {
+  font-weight: 600;
+  font-size: 14px;
+  color: #c1cbd4;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 0px;
+  text-align: left;
+}
+
+#countries-container {
+  width: 30%;
+}
+
+img {
+  border-style: none;
+}
