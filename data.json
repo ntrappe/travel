@@ -1,0 +1,134 @@
+[
+  {
+    "City": "Grasse",
+    "Country": "France"
+  },
+  {
+    "City": "Paris",
+    "Country": "France"
+  },
+  {
+    "City": "Cassis",
+    "Country": "France"
+  },
+  {
+    "City": "Madrid",
+    "Country": "Spain"
+  },
+  {
+    "City": "Barcelona",
+    "Country": "Spain"
+  },
+  {
+    "City": "Malaga",
+    "Country": "Spain"
+  },
+  {
+    "City": "Rome",
+    "Country": "Italy"
+  },
+  {
+    "City": "Naples",
+    "Country": "Italy"
+  },
+  {
+    "City": "Amalfi",
+    "Country": "Italy"
+  },
+  {
+    "City": "Palermo",
+    "Country": "Italy"
+  },
+  {
+    "City": "Pisa",
+    "Country": "Italy"
+  },
+  {
+    "City": "Genoa",
+    "Country": "Italy"
+  },
+  {
+    "City": "Portofino",
+    "Country": "Italy"
+  },
+  {
+    "City": "San Gimigiano",
+    "Country": "Italy"
+  },
+  {
+    "City": "Sienna",
+    "Country": "Italy"
+  },
+  {
+    "City": "Florence",
+    "Country": "Italy"
+  },
+  {
+    "City": "Venice",
+    "Country": "Italy"
+  },
+  {
+    "City": "Tivoli",
+    "Country": "Italy"
+  },
+  {
+    "City": "Cinque Terre",
+    "Country": "Italy"
+  },
+  {
+    "City": "Pompeii",
+    "Country": "Italy"
+  },
+  {
+    "City": "Berlin",
+    "Country": "Germany"
+  },
+  {
+    "City": "Stuttgart",
+    "Country": "Germany"
+  },
+  {
+    "City": "Salzburg",
+    "Country": "Austria"
+  },
+  {
+    "City": "Vienna",
+    "Country": "Austria"
+  },
+  {
+    "City": "Lisbon",
+    "Country": "Portugal"
+  },
+  {
+    "City": "Sintra",
+    "Country": "Portugal"
+  },
+  {
+    "City": "Copenhagen",
+    "Country": "Denmark"
+  },
+  {
+    "City": "Malmo",
+    "Country": "Sweden"
+  },
+  {
+    "City": "Wroclaw",
+    "Country": "Poland"
+  },
+  {
+    "City": "Warsaw",
+    "Country": "Poland"
+  },
+  {
+    "City": "Budapest",
+    "Country": "Hungary"
+  },
+  {
+    "City": "Istanbul",
+    "Country": "Turkey"
+  },
+  {
+    "City": "Rovaniemi",
+    "Country": "Finland"
+  }
+]
