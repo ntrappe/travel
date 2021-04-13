@@ -1,0 +1,84 @@
+@import './index.css';
+
+body {
+  min-width: 800px;
+  width: auto !important;
+  width: 800px;
+}
+
+#flex-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 600px;
+  margin: 40px;
+}
+
+#selector-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#filter-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 265px;
+  margin-right: 20px;
+}
+
+#search-container {
+  min-width: 0;
+  flex: auto;
+  align-self: center;
+}
+
+#search-bar {
+  border: 1.5px solid;
+  border-radius: 6px;
+  padding: 7px 20px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: #0d1117;
+  border-color: #30363d;
+  color: #c9d1d9;
+  height: 38px;
+  width: 100%;
+}
+
+.filter-selector {
+  border: 1.5px solid;
+  padding: 7px 20px;
+  text-align: center !important;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: #0d1117;
+  border-color: #30363d;
+  color: #c9d1d9;
+}
+
+.filter-selector:first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-right: none;
+}
+
+.filter-selector:last-child {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-left: none;
+}
+
+.filter-selector:hover {
+  background-color: #161b22;
+  color: #c9d1d9;
+}
+
+.filter-selector:active {
+  background-color: #276aeb;
+  border-color: #3d87fd;
+}
+
+* {
+  box-sizing: border-box;
+}
