@@ -33,6 +33,8 @@ searchBar.setAttribute('placeholder', 'Search for a country or city');
 const searchContainer = document.getElementById('search-container');
 searchContainer.appendChild(searchBar);
 
+const resultsContainer = document.getElementById('results-container');
+
 /* ========= Populates and searches database ========= */
 
 const loc = {
@@ -61,8 +63,10 @@ window.addEventListener('DOMContentLoaded', () => {
       arrLocs.push(loc);
     }
   });
-
+  console.log('size of results arr ' + arrResults.length);
+  setResults();
 });
+
 
 /**
  * Check for enter key clicked on search bar to call
@@ -72,13 +76,15 @@ searchBar.addEventListener('keyup', function(e) {
   if (e.key === 'Enter') {
     console.log('hit enter');
 
+    arrResults.length = 0;      // clear results first
+
     /* check if user gave input (nonempty) */
     if (searchBar.value != "") {
       verifyLoc(searchBar.value);
     } else {
       console.log('empty');
-      arrResults = [];
     }
+    setResults();
   }
 });
 
@@ -97,4 +103,44 @@ function verifyLoc(userInput) {
   }
 };
 
-const resultsContainer = document.getElementById('results-container');
+function setResults() {
+  // clear previous results
+  removeAllChildren(resultsContainer);
+
+  // no user input/anything searched for so use default
+  if (arrResults === undefined || arrResults.length == 0) {
+    setSingleLoc(arrLocs);
+  // only show searched results
+  } else {
+    console.log('size of results is ' + arrResults.length);
+    setSingleLoc(arrResults);
+  }
+}
+
+/**
+ * Remove all children nodes appended to this container
+ * @param {HTML div} parent div container with children
+ */
+function removeAllChildren(parent) {
+  while (parent.firstChild) {
+    console.log('removing ' + parent.firstChild.textContent);
+    parent.removeChild(parent.firstChild);
+  }
+}
+
+/**
+ * Creates a new paragraph element for each object in array and
+ * appends to the results container
+ * @param {Array} arr city/country objects
+ */
+function setSingleLoc(arr) {
+  for (let i in arr) {
+    console.log('adding ' + arr[i].city);
+    const singleLoc = document.createElement('p');
+    singleLoc.setAttribute('class', 'result');
+    singleLoc.innerHTML = arr[i].city + ', ' + arr[i].country;
+    resultsContainer.appendChild(singleLoc);
+  }
+}
+
+

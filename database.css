@@ -7,8 +7,8 @@ body {
 }
 
 #flex-container {
-  display: flex;
-  flex-direction: column;
+  display: flex !important;
+  flex-direction: column !important;
   min-width: 600px;
   margin: 40px;
 }
@@ -77,6 +77,18 @@ body {
 .filter-selector:active {
   background-color: #276aeb;
   border-color: #3d87fd;
+}
+
+#results-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: coral;
+}
+
+.result {
+  padding: 5px 17px;
+  background-color: darkcyan;
 }
 
 * {
