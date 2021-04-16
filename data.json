@@ -1,134 +1,297 @@
 [
   {
     "City": "Grasse",
-    "Country": "France"
+    "Country": "France",
+    "Visits": 1
   },
   {
     "City": "Paris",
-    "Country": "France"
+    "Country": "France",
+    "Visits": 1
   },
   {
     "City": "Cassis",
-    "Country": "France"
+    "Country": "France",
+    "Visits": 1
   },
   {
     "City": "Madrid",
-    "Country": "Spain"
+    "Country": "Spain",
+    "Visits": 1
   },
   {
     "City": "Barcelona",
-    "Country": "Spain"
+    "Country": "Spain",
+    "Visits": 3
   },
   {
     "City": "Malaga",
-    "Country": "Spain"
+    "Country": "Spain",
+    "Visits": 1
   },
   {
     "City": "Rome",
-    "Country": "Italy"
+    "Country": "Italy",
+    "Visits": 2
   },
   {
     "City": "Naples",
-    "Country": "Italy"
+    "Country": "Italy",
+    "Visits": 1
   },
   {
     "City": "Amalfi",
-    "Country": "Italy"
+    "Country": "Italy",
+    "Visits": 1
   },
   {
     "City": "Palermo",
-    "Country": "Italy"
+    "Country": "Italy",
+    "Visits": 1
   },
   {
     "City": "Pisa",
-    "Country": "Italy"
+    "Country": "Italy",
+    "Visits": 2
   },
   {
     "City": "Genoa",
-    "Country": "Italy"
+    "Country": "Italy",
+    "Visits": 1
   },
   {
     "City": "Portofino",
-    "Country": "Italy"
+    "Country": "Italy",
+    "Visits": 1
   },
   {
     "City": "San Gimigiano",
-    "Country": "Italy"
+    "Country": "Italy",
+    "Visits": 1
   },
   {
     "City": "Sienna",
-    "Country": "Italy"
+    "Country": "Italy",
+    "Visits": 1
   },
   {
     "City": "Florence",
-    "Country": "Italy"
+    "Country": "Italy",
+    "Visits": 2
+  },
+  {
+    "City": "Milan",
+    "Country": "Italy",
+    "Visits": 1
   },
   {
     "City": "Venice",
-    "Country": "Italy"
+    "Country": "Italy",
+    "Visits": 1
   },
   {
     "City": "Tivoli",
-    "Country": "Italy"
+    "Country": "Italy",
+    "Visits": 1
   },
   {
     "City": "Cinque Terre",
-    "Country": "Italy"
+    "Country": "Italy",
+    "Visits": 1
   },
   {
     "City": "Pompeii",
-    "Country": "Italy"
+    "Country": "Italy",
+    "Visits": 1
   },
   {
     "City": "Berlin",
-    "Country": "Germany"
+    "Country": "Germany",
+    "Visits": 1
   },
   {
     "City": "Stuttgart",
-    "Country": "Germany"
+    "Country": "Germany",
+    "Visits": 2
   },
   {
     "City": "Salzburg",
-    "Country": "Austria"
+    "Country": "Austria",
+    "Visits": 1
   },
   {
     "City": "Vienna",
-    "Country": "Austria"
+    "Country": "Austria",
+    "Visits": 1
   },
   {
     "City": "Lisbon",
-    "Country": "Portugal"
+    "Country": "Portugal",
+    "Visits": 1
   },
   {
     "City": "Sintra",
-    "Country": "Portugal"
+    "Country": "Portugal",
+    "Visits": 1
+  },
+  {
+    "City": "Almada",
+    "Country": "Portugal",
+    "Visits": 1
   },
   {
     "City": "Copenhagen",
-    "Country": "Denmark"
+    "Country": "Denmark",
+    "Visits": 1
+  },
+  {
+    "City": "Helsingor",
+    "Country": "Denmark",
+    "Visits": 1
   },
   {
     "City": "Malmo",
-    "Country": "Sweden"
+    "Country": "Sweden",
+    "Visits": 3
+  },
+  {
+    "City": "Helsingborg",
+    "Country": "Sweden",
+    "Visits": 1
   },
   {
     "City": "Wroclaw",
-    "Country": "Poland"
+    "Country": "Poland",
+    "Visits": 1
   },
   {
     "City": "Warsaw",
-    "Country": "Poland"
+    "Country": "Poland",
+    "Visits": 1
   },
   {
     "City": "Budapest",
-    "Country": "Hungary"
+    "Country": "Hungary",
+    "Visits": 1
   },
   {
     "City": "Istanbul",
-    "Country": "Turkey"
+    "Country": "Turkey",
+    "Visits": 1
   },
   {
     "City": "Rovaniemi",
-    "Country": "Finland"
+    "Country": "Finland",
+    "Visits": 1
+  },
+  {
+    "City": "Blue Grotto",
+    "Country": "Malta",
+    "Visits": 1
+  },
+  {
+    "City": "Monte Carlo",
+    "Country": "Monaco",
+    "Visits": 1
+  },
+  {
+    "City": "Bucharest",
+    "Country": "Romania",
+    "Visits": 1
+  },
+  {
+    "City": "Lausanne",
+    "Country": "Switzerland",
+    "Visits": 3
+  },
+  {
+    "City": "Heraklion",
+    "Country": "Greece",
+    "Visits": 1
+  },
+  {
+    "City": "Rethimno",
+    "Country": "Greece",
+    "Visits": 1
+  },
+  {
+    "City": "Knossos",
+    "Country": "Greece",
+    "Visits": 1
+  },
+  {
+    "City": "Santorini",
+    "Country": "Greece",
+    "Visits": 1
+  },
+  {
+    "City": "Athens",
+    "Country": "Greece",
+    "Visits": 1
+  },
+  {
+    "City": "Delphi",
+    "Country": "Greece",
+    "Visits": 1
+  },
+  {
+    "City": "Corinth",
+    "Country": "Greece",
+    "Visits": 1
+  },
+  {
+    "City": "London",
+    "Country": "United Kingdom",
+    "Visits": 2
+  },
+  {
+    "City": "Buenos Aires",
+    "Country": "Argentina",
+    "Visits": 1
+  },
+  {
+    "City": "Montevideo",
+    "Country": "Uruguay",
+    "Visits": 1
+  },
+  {
+    "City": "Punta del Este",
+    "Country": "Uruguay",
+    "Visits": 1
+  },
+  {
+    "City": "Colonia del Sacramento",
+    "Country": "Uruguay",
+    "Visits": 1
+  },
+  {
+    "City": "San Jose",
+    "Country": "Costa Rica",
+    "Visits": 1
+  },
+  {
+    "City": "Arenal",
+    "Country": "Costa Rica",
+    "Visits": 1
+  },
+  {
+    "City": "Tamarindo",
+    "Country": "Costa Rica",
+    "Visits": 1
+  },
+  {
+    "City": "San Pedro Sula",
+    "Country": "Honduras",
+    "Visits": 1
+  },
+  {
+    "City": "Tela",
+    "Country": "Honduras",
+    "Visits": 2
+  },
+  {
+    "City": "Cusuco National Park",
+    "Country": "Honduras",
+    "Visits": 1
   }
 ]
