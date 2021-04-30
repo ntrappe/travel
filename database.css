@@ -46,13 +46,14 @@ p:hover {
   font-weight: 600;
   font-size: 15px;
   background-color: #0d1117;
-  border-color: #30363d;
+  border-color: #30363d !important;
   color: #c9d1d9;
   height: 38px;
   width: 100%;
 }
 
-.filter-selector {
+.off-filter,
+.active-filter {
   border: 1.5px solid;
   padding: 7px 20px;
   text-align: center !important;
@@ -63,26 +64,30 @@ p:hover {
   color: #c9d1d9;
 }
 
-.filter-selector:first-child {
+.off-filter:first-child,
+.active-filter:first-child {
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
   border-right: none;
 }
 
-.filter-selector:last-child {
+.off-filter:last-child,
+.active-filter:last-child {
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
   border-left: none;
 }
 
-.filter-selector:hover {
+.off-filter:hover {
   background-color: #161b22;
   color: #c9d1d9;
 }
 
-.filter-selector:active {
-  background-color: #276aeb;
-  border-color: #3d87fd;
+.active-filter,
+.active-filter:hover {
+  background-color: #2a9446;
+  border-color: #21bf4d;
+  color: #fff;
 }
 
 #results-container {
@@ -124,4 +129,11 @@ p:hover {
 
 * {
   box-sizing: border-box;
+}
+
+/* remove red border default */
+input,
+input:focus {
+  box-shadow: none !important;
+  outline: none !important;
 }

@@ -2,6 +2,7 @@
 // eslint-disable-next-line import/extensions
 import './build.js';
 
+const allFilter = document.getElementById('all-filter');
 const resultsContainer = document.getElementById('results-container');
 const searchBar = document.getElementById('search-bar');
 
@@ -46,6 +47,7 @@ function removeAllChildren(parent) {
  * @param {Array} arr city/country objects
  */
 function populateDatabase(arr) {
+  console.log("add results to page");
   // clear previous results
   removeAllChildren(resultsContainer);
 
@@ -89,14 +91,23 @@ searchBar.addEventListener('keyup', (e) => {
   }
 });
 
+function updateAllFilter(on) {
+  console.log('update filter to ' + on);
+  if (on) {
+    allFilter.setAttribute('class', 'active-filter');
+  } else {
+    allFilter.setAttribute('class', 'off-filter');
+  }
+};
+
 /**
  * Populate data when page loads
  */
 window.addEventListener('load', () => {
-  console.log('fetching');
   fetch('./data.json')
     .then((response) => response.json())
     .then((data) => {
+      console.log("reading from json file");
       for (let i = 0; i < data.length; i++) {
         const loc = {};
         loc.city = data[i].City;
@@ -104,5 +115,7 @@ window.addEventListener('load', () => {
         loc.visits = data[i].Visits;
         arrLocations.push(loc);
       }
+      updateAllFilter(true);
+      populateDatabase(arrLocations);
     });
 });

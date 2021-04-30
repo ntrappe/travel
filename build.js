@@ -10,13 +10,14 @@ document.head.appendChild(styles);
  * Create "filter" items
  */
 const countryFilter = document.createElement('p');
-countryFilter.setAttribute('class', 'filter-selector');
+countryFilter.setAttribute('class', 'off-filter');
 countryFilter.innerHTML = 'Countries';
 const cityFilter = document.createElement('p');
-cityFilter.setAttribute('class', 'filter-selector');
+cityFilter.setAttribute('class', 'off-filter');
 cityFilter.innerHTML = 'Cities';
 const allFilter = document.createElement('p');
-allFilter.setAttribute('class', 'filter-selector');
+allFilter.setAttribute('class', 'off-filter');
+allFilter.setAttribute('id', 'all-filter');
 allFilter.innerHTML = 'All';
 
 const filterContainer = document.getElementById('filter-container');
