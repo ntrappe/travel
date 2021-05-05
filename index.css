@@ -11,6 +11,12 @@ header {
   padding-bottom: 20px;
 }
 
+header > p {
+  float: right;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
 body {
   background-color: #0d1117;
   color: #c9d1d9;
@@ -73,7 +79,7 @@ p:hover {
 }
 
 .flag-box:not(:last-child) {
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 .flag-box > img {

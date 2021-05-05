@@ -11,18 +11,53 @@
 </head>
 
 <body>
-  <header>Travel Portfolio</header>
+  <header>Travel Portfolio
+    <p id="search-link">Search</p>
+    <script>
+      // link redirect
+      const searchLink = document.getElementById('search-link');
+      searchLink.addEventListener('click', () => {
+        window.location.href = 'https://ntrappe.github.io/travel/database.html';
+      });
+    </script>
+  </header>
   <main>
     <div id="flex-container">
       <div id="flag-container">
         <div class="flag-row">
           <div class="flag-box">
-            <img alt="" src="./denmark.png" width="150">
+            <img alt="" src="./denmark.png" width="175">
             <p class="flag-title">Denmark</p>
           </div>
           <div class="flag-box">
-            <img alt="" src="./argentina.png" width="150">
+            <img alt="" src="./argentina.png" width="175">
             <p class="flag-title">Argentina</p>
+          </div>
+          <div class="flag-box">
+            <img alt="" src="./finland.png" width="175">
+            <p class="flag-title">Finland</p>
+          </div>
+          <div class="flag-box">
+            <img alt="" src="./sweden.png" width="175">
+            <p class="flag-title">Sweden</p>
+          </div>
+        </div>
+        <div class="flag-row">
+          <div class="flag-box">
+            <img alt="" src="./greece.png" width="175">
+            <p class="flag-title">Greece</p>
+          </div>
+          <div class="flag-box">
+            <img alt="" src="./switzerland.png" width="175">
+            <p class="flag-title">Switzerland</p>
+          </div>
+          <div class="flag-box">
+            <img alt="" src="./india.png" width="175">
+            <p class="flag-title">India</p>
+          </div>
+          <div class="flag-box">
+            <img alt="" src="./honduras.png" width="175">
+            <p class="flag-title">Honduras</p>
           </div>
         </div>
       </div>
