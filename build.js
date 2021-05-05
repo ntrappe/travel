@@ -4,6 +4,7 @@ console.log('created selector components');
 const styles = document.createElement('link');
 styles.setAttribute('rel', 'stylesheet');
 styles.setAttribute('href', './database.css');
+//styles.setAttribute('href', './database-light.css');
 document.head.appendChild(styles);
 
 /**

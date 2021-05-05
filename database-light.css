@@ -1,0 +1,45 @@
+@import './database.css';
+
+body {
+  background-color: #fff;
+}
+
+.off-filter {
+  background-color: #ebedf0;
+  border-color: #dee0e4;
+  color: #24292e;
+}
+
+.active-filter {
+  /* background-color: #9BEAA8; */
+  /* border-color: #88da94; */
+  /* color: #24292e; */
+  background-color: #1262d6;
+  border-color: #1262d6;
+}
+
+#search-bar {
+  background-color: #e1e4e8;
+  color: #586069;
+  border-color: #d2d4d8 !important;
+}
+
+.result {
+  background-color: #fff;
+  border-color: #e1e4e8;
+  color: #24292e;
+}
+
+.result:last-child {
+  border-bottom-color: #e1e4e8;
+}
+
+.result:hover {
+  background-color: #f6f8fa;
+  color: #24292e;
+}
+
+.visits,
+.visits:hover {
+  color: #688ad9;
+}
